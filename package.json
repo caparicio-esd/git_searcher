@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "sh deploy.sh",
-    "clean": "rm -rf docs && rm -rf node_modules"
+    "clean": "rm -rf docs && rm -rf node_modules && rm yarn.lock && rm package-lock.json"
   },
   "devDependencies": {
     "dotenv": "^10.0.0",

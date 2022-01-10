@@ -1,5 +1,5 @@
 import "modern-css-reset";
-import "./assets/styles/style.css";
+import "./../assets/styles/style.css";
 import "phosphor-icons";
 import Masonry from "masonry-layout";
 
