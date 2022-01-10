@@ -1,6 +1,7 @@
 # abort on errors
 set -e
 
+
 # build
 npm run build
 mv dist docs
