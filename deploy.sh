@@ -1,9 +1,8 @@
 # abort on errors
-set -e
 source .env
 
 # build
-rm -rf docs
+npm run clean
 npm run build
 mv dist docs
 
