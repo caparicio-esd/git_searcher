@@ -2,7 +2,7 @@
 set -e
 
 # build
-yarn build
+npm run build
 mv dist docs
 
 # navigate into the build output directory
