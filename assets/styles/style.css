@@ -1,7 +1,7 @@
 
 
 * {
-  border: 1px solid tomato;
+  border: 1px solid pink;
 }
 
 html, body {
@@ -12,9 +12,6 @@ html, body {
 
 .pic {
   margin-bottom: 10px;
-  h3 {
-    word-wrap: break-word;
-  }
   img {
     
   }
