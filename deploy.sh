@@ -5,7 +5,7 @@ set -e
 
 # build
 yarn build
-mv /$PWD/dist /$PWD/docs
+mv dist docs
 
 # navigate into the build output directory
 # cd dist
