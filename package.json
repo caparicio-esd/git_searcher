@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && mv dist docs",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview", 
+    "deploy": "sh deploy.sh"
   },
   "devDependencies": {
     "postcss": "^8.4.5",
