@@ -4,7 +4,7 @@
 set -e
 
 # build
-npm run build
+vite build
 mv dist docs
 
 # navigate into the build output directory
