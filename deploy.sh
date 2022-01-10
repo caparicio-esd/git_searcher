@@ -4,8 +4,8 @@
 set -e
 
 # build
-vite build
-mv dist docs
+yarn build
+mv ./dist/ ./docs/
 
 # navigate into the build output directory
 # cd dist
