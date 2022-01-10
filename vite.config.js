@@ -1,5 +1,6 @@
 const { defineConfig } = require("vite");
+const env = require("dotenv").config();
 
 module.exports = defineConfig({
-  base: "git_searcher",
+  base: "/" + process.env.GIT_REPO  + "/",
 });
