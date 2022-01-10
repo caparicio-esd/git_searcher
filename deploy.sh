@@ -1,11 +1,11 @@
-#!/usr/bin/env sh
+#!/usr/bin/bash
 
 # abort on errors
 set -e
 
 # build
 yarn build
-mv ./dist/ ./docs/
+mv dist docs
 
 # navigate into the build output directory
 # cd dist
